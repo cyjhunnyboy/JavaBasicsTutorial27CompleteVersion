@@ -1,0 +1,4 @@
+#className=per.cyj.day27.reflect.reflect05.Student
+#className=per.cyj.day27.reflect.reflect05.Teacher
+className=per.cyj.day27.reflect.reflect05.Worker
+methodName=love
