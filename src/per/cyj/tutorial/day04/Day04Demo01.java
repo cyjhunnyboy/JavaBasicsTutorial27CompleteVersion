@@ -83,6 +83,5 @@ public class Day04Demo01 {
                 System.out.println("你输入的数据有误");
                 break;
         }
-
     }
 }
