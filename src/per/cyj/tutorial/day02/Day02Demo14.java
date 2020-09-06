@@ -24,9 +24,11 @@ public class Day02Demo14 {
         // 编译报错：Error:(22, 16) java: 不兼容的类型: 从int转换到byte可能会有损失
         // 这个是类型提升，所以有问题
         // b = b1 + b2;
+
         // 常量，先把结果计算出来，然后看是否在byte类型的范围内，如果在就正常赋值，如果不在就报错
         b = 3 + 4;
         System.out.println(b);
+
         int b3 = b1 + b2;
         System.out.println(b3);
     }
