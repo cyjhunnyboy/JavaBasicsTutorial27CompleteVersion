@@ -18,6 +18,7 @@ public class Day02Demo16 {
         // 直接输出一个字符
         System.out.println('a');
         // 输出一个字符和一个整数做加法
-        System.out.println('a' + 1);    // 结果：98，说明'a'是97
+        // 结果：98，说明'a'是97
+        System.out.println('a' + 1);
     }
 }
