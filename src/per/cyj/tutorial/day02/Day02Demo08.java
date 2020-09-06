@@ -17,9 +17,13 @@ package per.cyj.tutorial.day02;
 public class Day02Demo08 {
 
     public static void main(String[] args) {
-        System.out.println(100);    // 十进制
-        System.out.println(0b100);  // 二进制
-        System.out.println(0100);   // 八进制
-        System.out.println(0x100);  // 十六进制
+        // 十进制
+        System.out.println(100);
+        // 二进制
+        System.out.println(0b100);
+        // 八进制
+        System.out.println(0100);
+        // 十六进制
+        System.out.println(0x100);
     }
 }
