@@ -9,6 +9,7 @@ package per.cyj.tutorial.day02;
 public class Day02Demo11 {
 
     public static void main(String[] args) {
+
         /*
             +是一个运算符，做加法运算的
             一般来说，我们在运算的时候，要求参与运算的数据类型必须一致
@@ -18,6 +19,7 @@ public class Day02Demo11 {
                 1、byte,short,char->int->long->float->double
                 2、byte,short,char相互之间不转换，他们参与运算的时候首先转换为int类型
          */
+
         // 直接输出的方式做加法
         System.out.println(3 + 4);
         System.out.println("---------------------");
