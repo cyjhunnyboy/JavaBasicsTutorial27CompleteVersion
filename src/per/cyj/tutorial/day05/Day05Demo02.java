@@ -25,7 +25,6 @@ public class Day05Demo02 {
 
         int result = returnMax(a, b);
         System.out.println("较大值是：" + result);
-
     }
 
     /*

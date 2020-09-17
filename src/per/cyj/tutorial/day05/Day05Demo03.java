@@ -28,7 +28,6 @@ public class Day05Demo03 {
 
         boolean flag = compare(a, b);
         System.out.println(flag);
-
     }
 
     /*

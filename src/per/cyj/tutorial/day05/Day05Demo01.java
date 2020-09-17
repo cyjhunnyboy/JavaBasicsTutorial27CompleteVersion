@@ -59,7 +59,6 @@ public class Day05Demo01 {
         int result = sum(x, y);
         // result在这里可以进行操作
         System.out.println(result);
-
     }
 
     /*

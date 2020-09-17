@@ -27,7 +27,6 @@ public class Day05Demo04 {
 
         int max = returnMax(a, b, c);
         System.out.println("三个数中最大值是：" + max);
-
     }
 
     /*

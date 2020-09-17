@@ -31,7 +31,6 @@ public class Day05Demo05 {
         int y = 20;
         int resutl = sum(x, y);
         System.out.println(resutl);
-
     }
 
     public static int sum(int a, int b) {
