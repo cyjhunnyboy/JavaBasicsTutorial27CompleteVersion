@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 方法
  *
- * @author chen-PC
+ * @author chenyongjun
  * @since 2020-02-07
  */
 public class Day05Demo04 {
