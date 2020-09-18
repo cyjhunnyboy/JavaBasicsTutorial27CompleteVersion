@@ -33,11 +33,13 @@ public class Day05Demo04 {
 
         max = returnMax3(a, b, c);
         System.out.println("三个数中最大值是：" + max);
+
+        max = returnMax4(a, b, c);
+        System.out.println("三个数中最大值是：" + max);
     }
 
     /*
         需求：键盘录入三个数据，返回三个数据中的最大值
-
         两个明确：
             1、返回值类型：int
             2、参数列表：int a, int b, int c
@@ -61,7 +63,6 @@ public class Day05Demo04 {
 
     /*
         需求：键盘录入三个数据，返回三个数据中的最大值
-
         两个明确：
             1、返回值类型：int
             2、参数列表：int a, int b, int c
@@ -76,17 +77,27 @@ public class Day05Demo04 {
     }
 
     /*
-    需求：键盘录入三个数据，返回三个数据中的最大值
-
-    两个明确：
-        1、返回值类型：int
-        2、参数列表：int a, int b, int c
+        需求：键盘录入三个数据，返回三个数据中的最大值
+        两个明确：
+            1、返回值类型：int
+            2、参数列表：int a, int b, int c
     */
     public static int returnMax3(int a, int b, int c) {
         // 用三元运算符改进
         // 继续改进
         // 不建议，写代码一定要注意阅读性强
-        // return (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+        return (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+    }
+
+    /*
+        需求：键盘录入三个数据，返回三个数据中的最大值
+        两个明确：
+            1、返回值类型：int
+            2、参数列表：int a, int b, int c
+    */
+    public static int returnMax4(int a, int b, int c) {
+        // 用三元运算符改进
+        // 继续改进
         int temp = ((a > b) ? a : b);
         int max = ((temp > c) ? temp : c);
         return max;
