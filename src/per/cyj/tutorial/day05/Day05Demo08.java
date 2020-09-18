@@ -24,7 +24,6 @@ public class Day05Demo08 {
 
     /*
        需求：输出对应的nn乘法表
-
        输出星形
        两个明确：
           1、返回值类型：void
