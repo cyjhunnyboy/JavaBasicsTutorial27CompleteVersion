@@ -15,7 +15,6 @@ public class Day05Demo05 {
         3、方法定义的时候参数之间用逗号隔开
         4、方法调用的时候不用再传递数据类型
         5、如果方法有明确的返回值，一定要有return带回一个值
-
      */
     public static void main(String[] args) {
         /*
@@ -29,8 +28,8 @@ public class Day05Demo05 {
         // int resutl = sum(int 10, int 20);
         int x = 10;
         int y = 20;
-        int resutl = sum(x, y);
-        System.out.println(resutl);
+        int resut = sum(x, y);
+        System.out.println(resut);
     }
 
     public static int sum(int a, int b) {
