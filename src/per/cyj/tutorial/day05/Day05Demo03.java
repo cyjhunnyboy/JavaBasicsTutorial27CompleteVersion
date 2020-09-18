@@ -26,7 +26,16 @@ public class Day05Demo03 {
         System.out.println("请输入第二个数据：");
         int b = sc.nextInt();
 
-        boolean flag = compare(a, b);
+        boolean flag = compare1(a, b);
+        System.out.println(flag);
+
+        flag = compare2(a, b);
+        System.out.println(flag);
+
+        flag = compare3(a, b);
+        System.out.println(flag);
+
+        flag = compare4(a, b);
         System.out.println(flag);
     }
 
@@ -35,22 +44,41 @@ public class Day05Demo03 {
             1、返回值类型：boolean
             2、参数列表：int a, int b
      */
-    public static boolean compare(int a, int b) {
-        /*
+    public static boolean compare1(int a, int b) {
         if (a == b) {
             return true;
         } else {
             return false;
         }
-         */
+    }
 
+    /*
+        两个明确：
+            1、返回值类型：boolean
+            2、参数列表：int a, int b
+    */
+    public static boolean compare2(int a, int b) {
         // 三元运算符改进
-        // boolean flag = ((a == b) ? true : false);
-        // return flag;
+        boolean flag = ((a == b) ? true : false);
+        return flag;
+    }
 
+    /*
+        两个明确：
+            1、返回值类型：boolean
+            2、参数列表：int a, int b
+    */
+    public static boolean compare3(int a, int b) {
         // 继续改进
-        // return ((a == b) ? true : false);
+        return ((a == b) ? true : false);
+    }
 
+    /*
+        两个明确：
+            1、返回值类型：boolean
+            2、参数列表：int a, int b
+    */
+    public static boolean compare4(int a, int b) {
         // 最终版
         return a == b;
     }
