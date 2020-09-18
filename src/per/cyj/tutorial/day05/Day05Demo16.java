@@ -14,7 +14,6 @@ public class Day05Demo16 {
                原因：你访问了不存在的索引
             2、java.lang.NullPointerException：空指针异常
                原因：数组已经不再指向堆内存了，而你还用数组名访问元素。
-
         作用：请自己把所有的场景Exception结尾的问题总结一下，以后遇到就记录下来
              现象、原因、解决方案
      */

@@ -15,7 +15,6 @@ public class Day05Demo15 {
             3、举例：
                 int[] arr = new int[]{1, 2, 3};
                 int[] arr = {1, 2, 3};
-
         注意事项：
             1、不要同时动态和静态进行
                 格式如下：int[] arr = new int[3]{1, 2, 3} // 错误

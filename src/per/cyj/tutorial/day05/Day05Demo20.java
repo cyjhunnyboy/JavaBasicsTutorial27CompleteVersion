@@ -12,7 +12,6 @@ public class Day05Demo20 {
 
     /*
         数组查表法（根据键盘录入索引，查找对应星期）
-
         意思是：String[] strArray = {"星期一", "星期二',...};
      */
     public static void main(String[] args) {

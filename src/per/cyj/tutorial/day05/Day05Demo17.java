@@ -10,7 +10,6 @@ public class Day05Demo17 {
 
     /*
         数组遍历：就是依次输出数组中的每一个元素。
-
         注意：数组提供了一个属性length，用于获取数组的长度
              格式：数组名.length
      */
@@ -25,7 +24,6 @@ public class Day05Demo17 {
         System.out.println(arr[2]);
         System.out.println(arr[3]);
         System.out.println(arr[4]);
-
         System.out.println("--------------");
 
         // 虽然这种做法可以，但是不是我想要的
@@ -34,7 +32,6 @@ public class Day05Demo17 {
         for (int i = 0; i < 5; i++) {
             System.out.println(arr[i]);
         }
-
         System.out.println("--------------");
 
         // 从0开始我们是明确的，但是为什么到5呢？我们是数了一下数组的个数
@@ -45,40 +42,32 @@ public class Day05Demo17 {
         // 格式：数组名.length 返回数组的长度
         System.out.println(arr.length);
         System.out.println(arr2.length);
-
         System.out.println("--------------");
 
         // 改进第一个程序
         for (int j = 0; j < arr.length; j++) {
             System.out.println(arr[j]);
         }
-
         System.out.println("--------------");
 
         // 我们如果想要对多个数组进行遍历，每个数组的遍历我们都把代码写一遍
         // 麻烦不？ 麻烦，所以，我们准备用方法改进
         // 用方法改进后，再调用
         printArray(arr);
-
-        System.out.println("--------------");
-
         // 遍历第二个数组
         printArray(arr2);
-
         System.out.println("--------------");
+
         printArray2(arr);
-        System.out.println("--------------");
         printArray2(arr2);
+        System.out.println("--------------");
 
-        System.out.println("--------------");
         printArray3(arr);
-        System.out.println("--------------");
         printArray3(arr2);
     }
 
     /*
         遍历数组的方法
-
         两个明确：
             1、返回值类型：void
             2、参数列表：int[] arr
