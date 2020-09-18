@@ -23,7 +23,13 @@ public class Day05Demo02 {
         System.out.println("请输入第二个数据：");
         int b = sc.nextInt();
 
-        int result = returnMax(a, b);
+        int result = returnMax1(a, b);
+        System.out.println("较大值是：" + result);
+
+        result = returnMax2(a, b);
+        System.out.println("较大值是：" + result);
+
+        result = returnMax3(a, b);
         System.out.println("较大值是：" + result);
     }
 
@@ -31,18 +37,33 @@ public class Day05Demo02 {
         两个明确：
             1、返回值类型：int
             2、参数列表：int a, int b
-     */
-    public static int returnMax(int a, int b) {
-        /*
+    */
+    public static int returnMax1(int a, int b) {
         if (a > b) {
             return a;
         } else {
             return b;
         }
-        */
+    }
 
+    /*
+        两个明确：
+            1、返回值类型：int
+            2、参数列表：int a, int b
+     */
+    public static int returnMax2(int a, int b) {
         // 用三元运算符改进
-        // int c = ((a > b) ? a : b);
+        int c = ((a > b) ? a : b);
+        return c;
+    }
+
+    /*
+        两个明确：
+            1、返回值类型：int
+            2、参数列表：int a, int b
+    */
+    public static int returnMax3(int a, int b) {
+        // 用三元运算符改进
         // 由于c就是后面的式子
         return ((a > b) ? a : b);
     }
