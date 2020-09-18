@@ -25,7 +25,13 @@ public class Day05Demo04 {
         System.out.println("请输入第三个数据：");
         int c = sc.nextInt();
 
-        int max = returnMax(a, b, c);
+        int max = returnMax1(a, b, c);
+        System.out.println("三个数中最大值是：" + max);
+
+        max = returnMax2(a, b, c);
+        System.out.println("三个数中最大值是：" + max);
+
+        max = returnMax3(a, b, c);
         System.out.println("三个数中最大值是：" + max);
     }
 
@@ -35,10 +41,9 @@ public class Day05Demo04 {
         两个明确：
             1、返回值类型：int
             2、参数列表：int a, int b, int c
-     */
-    public static int returnMax(int a, int b, int c) {
+    */
+    public static int returnMax1(int a, int b, int c) {
         // if嵌套
-        /*
         if (a > b) {
             if (a > c) {
                 return a;
@@ -52,17 +57,33 @@ public class Day05Demo04 {
                 return c;
             }
         }
-         */
+    }
 
+    /*
+        需求：键盘录入三个数据，返回三个数据中的最大值
+
+        两个明确：
+            1、返回值类型：int
+            2、参数列表：int a, int b, int c
+     */
+    public static int returnMax2(int a, int b, int c) {
         // 用三元运算符改进
-        /*
         if (a > b) {
             return (a > c ? a : c);
         } else {
             return (b > c ? b : c);
         }
-         */
+    }
 
+    /*
+    需求：键盘录入三个数据，返回三个数据中的最大值
+
+    两个明确：
+        1、返回值类型：int
+        2、参数列表：int a, int b, int c
+    */
+    public static int returnMax3(int a, int b, int c) {
+        // 用三元运算符改进
         // 继续改进
         // 不建议，写代码一定要注意阅读性强
         // return (a > b) ? (a > c ? a : c) : (b > c ? b : c);
