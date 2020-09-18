@@ -50,29 +50,41 @@ public class Day05Demo01 {
         int y = 20;
 
         // 方式1：单独调用
-        // sum(10, 20);
+        sum1(10, 20);
+        sum1(10, 20);
 
         // 方式2：输出调用
-        // System.out.println(sum(x, y));
+        System.out.println(sum1(x, y));
+        System.out.println(sum1(x, y));
 
         // 方式3：赋值调用
-        int result = sum(x, y);
+        int result = sum1(x, y);
+        // result在这里可以进行操作
+        System.out.println(result);
+        result = sum2(x, y);
         // result在这里可以进行操作
         System.out.println(result);
     }
 
     /*
         需求：求两个数据之和的案例
-
         两个明确：
             返回值类型：int
             参数列表：2个，都是int类型
      */
-    public static int sum(int a, int b) {
-        // 如何实现呢
-        // int c = a + b;
-        // return c;
+    public static int sum1(int a, int b) {
+         // 如何实现呢
+         int c = a + b;
+         return c;
+    }
 
+    /*
+        需求：求两个数据之和的案例
+        两个明确：
+            返回值类型：int
+            参数列表：2个，都是int类型
+    */
+    public static int sum2(int a, int b) {
         // c就是a+b，所以，可以直接返回a+b
         return a + b;
     }
