@@ -8,7 +8,7 @@ package per.cyj.tutorial.day06.objectoriented.classandobject.objectuse;
  */
 
 // 这是学生类
-class Student {
+public class Student {
 
     // 姓名
     String name;    // 默认值：null
