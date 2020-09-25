@@ -50,7 +50,8 @@ public class Day03Demo02 {
         int c = a++;
         int d = b--;
         System.out.println("a: " + a + ", b: " + b);
-        System.out.println("c: " + c + ", d: " + d);;
+        System.out.println("c: " + c + ", d: " + d);
+        ;
 
         int a1 = 3;
         int b1 = 4;

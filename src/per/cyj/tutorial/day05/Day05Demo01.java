@@ -67,9 +67,9 @@ public class Day05Demo01 {
             参数列表：2个，都是int类型
      */
     public static int sum1(int a, int b) {
-         // 如何实现呢
-         int c = a + b;
-         return c;
+        // 如何实现呢
+        int c = a + b;
+        return c;
     }
 
     /*
